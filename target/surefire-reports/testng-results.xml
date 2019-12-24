@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-24T11:43:35Z" name="Command line suite" finished-at="2019-12-24T11:43:35Z" duration-ms="13">
+    <groups>
+    </groups>
+    <test started-at="2019-12-24T11:43:35Z" name="Command line test" finished-at="2019-12-24T11:43:35Z" duration-ms="13">
+      <class name="annotation.TestAnnotationByClass">
+        <test-method signature="testMethod()[pri:0, instance:annotation.TestAnnotationByClass@1e802ef9]" started-at="2019-12-24T06:43:35Z" name="testMethod" finished-at="2019-12-24T06:43:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- annotation.TestAnnotationByClass -->
+      <class name="annotation.TestSuiteExample">
+        <test-method is-config="true" signature="myBeforeClassMethod()[pri:0, instance:annotation.TestSuiteExample@2b6faea6]" started-at="2019-12-24T06:43:35Z" name="myBeforeClassMethod" finished-at="2019-12-24T06:43:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeClassMethod -->
+        <test-method is-config="true" signature="myBeforeMethod()[pri:0, instance:annotation.TestSuiteExample@2b6faea6]" started-at="2019-12-24T06:43:35Z" name="myBeforeMethod" finished-at="2019-12-24T06:43:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeMethod -->
+        <test-method signature="testMethod()[pri:0, instance:annotation.TestSuiteExample@2b6faea6]" started-at="2019-12-24T06:43:35Z" name="testMethod" finished-at="2019-12-24T06:43:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethodTwo()[pri:0, instance:annotation.TestSuiteExample@2b6faea6]" started-at="2019-12-24T06:43:35Z" name="testMethodTwo" finished-at="2019-12-24T06:43:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method is-config="true" signature="myBeforeMethod()[pri:0, instance:annotation.TestSuiteExample@2b6faea6]" started-at="2019-12-24T06:43:35Z" name="myBeforeMethod" finished-at="2019-12-24T06:43:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeMethod -->
+      </class> <!-- annotation.TestSuiteExample -->
+      <class name="annotation.TestAnnotation">
+        <test-method signature="testMethod()[pri:0, instance:annotation.TestAnnotation@7f010382]" started-at="2019-12-24T06:43:35Z" name="testMethod" finished-at="2019-12-24T06:43:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- annotation.TestAnnotation -->
+      <class name="annotation.base.TestBase">
+        <test-method is-config="true" signature="myBeforeSuite()[pri:0, instance:annotation.base.TestBase@4313f5bc]" started-at="2019-12-24T06:43:35Z" name="myBeforeSuite" finished-at="2019-12-24T06:43:35Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeSuite -->
+        <test-method is-config="true" signature="myAfterSuite()[pri:0, instance:annotation.base.TestBase@4313f5bc]" started-at="2019-12-24T06:43:35Z" name="myAfterSuite" finished-at="2019-12-24T06:43:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterSuite -->
+      </class> <!-- annotation.base.TestBase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
